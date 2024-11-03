@@ -7,8 +7,4 @@ box3 = (request_number // 100) % 10
 box4 = (request_number // 10) % 10
 box5 = request_number % 10
 
-print(box5)
-print(box4)
-print(box3)
-print(box2)
-print(box1)
+print(f"{box5}{box4}{box3}{box2}{box1}")

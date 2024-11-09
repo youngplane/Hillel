@@ -1,8 +1,6 @@
-your_list = [5, 1, 11, 6]
+def move_last_to_first(lst):
+    return [lst[-1]] + lst[:-1] if lst else lst
 
-if len(your_list) > 1:
-    result = [your_list[-1]] + your_list[:-1]
-else:
-    result = your_list
-
-print("Результат:", result)
+#проверка
+test_list = [16, 6, 8, 13]
+print(move_last_to_first(test_list))
